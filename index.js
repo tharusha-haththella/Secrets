@@ -5,8 +5,8 @@ import bcrypt from "bcrypt";
 import session from "express-session";
 import passport from "passport";
 import { Strategy } from "passport-local";
-import env from "dotenv";
 import GoogleStrategy from "passport-google-oauth2";
+import env from "dotenv";
 
 const app = express();
 const port = 3000;
